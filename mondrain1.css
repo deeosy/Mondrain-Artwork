@@ -1,0 +1,52 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 748px; width: 748px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 148px 500px 80px;
+    grid-template-rows: 255px 255px 104px 104px;
+    gap: 10px;
+}
+
+.item{ 
+    background-color: rgb(218, 235, 235);
+     margin: 0;
+    padding: 0;
+}
+
+.white1{
+    margin-bottom: 5px;
+}
+
+.white2{
+    margin-top: 5px;
+}
+
+.red{
+    background-color: red;
+    grid-area: 1/2/3/4;
+}
+
+.blue{
+    background-color: rgb(34, 34, 194);
+    grid-area: 3/1/5/2;
+}
+
+.whiteA{
+    grid-area: 3/2/5/3;
+}
+
+.whiteB{
+    margin-bottom: 4px;
+}
+
+.yellow{
+    margin-top: 4px;
+    background-color: rgb(248, 248, 35);
+}
